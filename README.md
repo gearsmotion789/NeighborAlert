@@ -40,11 +40,12 @@ exports.firebaseConfig = {
 ### General setup:
 1. Instal node.js from https://nodejs.org/en/download
 2. Install git from https://git-scm.com/downloads
-3. Inside of the root directory of each project, type ```npm install```
-4. Get the ip addres of the Raspberry Pi
+3. Clone this projec with ```git clone https://github.com/gearsmotion789/NeighborhoodWatch.git```
+4. Inside of the root directory of each project, type ```npm install```
+5. Get the ip addres of the Raspberry Pi
   - Type ```ifconfig``` and copy the address next to IPv4 Address
-5. For both the website and the object tracking program, replace the line that says "proxy" inside of "package.json", and replace it with "http://[RASPBERRY PI IP]:8081"
-6. For both the website and the object tracking program, replace the constant called "serverIp" inside of "src/App.js" and "src/index.js", respectively, and replace it with "[RASPBERRY PI IP]"
+6. For both the website and the object tracking program, replace the line that says "proxy" inside of "package.json", and replace it with "http://[RASPBERRY PI IP]:8081"
+7. For both the website and the object tracking program, replace the constant called "serverIp" inside of "src/App.js" and "src/index.js", respectively, and replace it with "[RASPBERRY PI IP]"
 
 ### There are 3 parts to this project:
 1. neighborhoodWatch is the web-app that users can go to view uploaded video
