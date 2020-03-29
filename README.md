@@ -39,8 +39,8 @@ exports.firebaseConfig = {
   - For the machine hosting the website, type ```ipconfig``` and copy the address next to IPv4 Address
   - For the machine hosting the object tracking, ```ipconfig``` and copy the address next to IPv4 Address
   - For the raspbbery pi, type ```ifconfig``` and copy the address next to IPv4 Address
-5. For both the website and the object tracking program, replace the line that says "proxy" inside of package.json, and replace it with "http://<RASPBERRY PI IP>:8081"
-6. For both the website and the object tracking program, replace the constant called "serverIp" inside of src/App.js and src/index.js, respectively, and replace it with "<RASPBERRY PI IP>"
+5. For both the website and the object tracking program, replace the line that says "proxy" inside of "package.json", and replace it with "http://<RASPBERRY PI IP>:8081"
+6. For both the website and the object tracking program, replace the constant called "serverIp" inside of "src/App.js" and "src/index.js", respectively, and replace it with "<RASPBERRY PI IP>"
 
 ### There are 3 parts to this project:
 1. neighborhoodWatch is the web-app that users can go to view uploaded video
@@ -51,7 +51,7 @@ exports.firebaseConfig = {
   - To run, type ```sudo node index.js``` from within the project directory
 4. There is also an additional 4th part called stream-video-borwser which can provide remote live streaming (it is slightly modified from the existing project developed by pyimagesearch.com)
   - Install python 3 from https://www.python.org/downloads
-  - Do a ```pip install``` for flask, imutils, opencv-python
+  - Do a ```pip install``` for "flask", "imutils", "opencv-python"
   - Note: it may or may not work simulataneously with tfjs running too because depending on whether your pc allows multi-access to a webcam at the same time
   - To run, type ```python webstreaming.py``` from the project directory
   
