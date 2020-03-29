@@ -40,7 +40,7 @@ exports.firebaseConfig = {
 ### General setup:
 1. Instal node.js from https://nodejs.org/en/download
 2. Install git from https://git-scm.com/downloads
-3. Clone this projec with ```git clone https://github.com/gearsmotion789/NeighborhoodWatch.git```
+3. Clone this project with ```git clone https://github.com/gearsmotion789/NeighborhoodWatch.git```
 4. Inside of the root directory of each project, type ```npm install```
 5. Get the ip addres of the Raspberry Pi
   - Type ```ifconfig``` and copy the address next to IPv4 Address
