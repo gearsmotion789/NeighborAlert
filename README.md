@@ -1,6 +1,6 @@
 # NeighborAlert
 
-Firebase setup:
+### Firebase setup:
 1. Go to https://console.firebase.google.com and create a new project
 2. Add a new app from the home page of your Firebase project, and choose "Web". Give it a name.
 3. Copy the config which should like this:
@@ -31,7 +31,7 @@ exports.firebaseConfig = {
 ```
 5. You will need to copy this file inside of "neighborhoodWatch/src" as well as "tfjs/src"
 
-General setup:
+### General setup:
 1. Instal node.js from https://nodejs.org/en/download
 2. Install git from https://git-scm.com/downloads
 3. Inside of the root directory of each project, type ```npm install```
@@ -42,7 +42,7 @@ General setup:
 5. For both the website and the object tracking program, replace the line that says "proxy" inside of package.json, and replace it with "http://<RASPBERRY PI IP>:8081"
 6. For both the website and the object tracking program, replace the constant called "serverIp" inside of src/App.js and src/index.js, respectively, and replace it with "<RASPBERRY PI IP>"
 
-There are 3 parts to this project:
+### There are 3 parts to this project:
 1. neighborhoodWatch is the web-app that users can go to view uploaded video
   - To run, type ```npm start``` from within the project directory
 2. tfjs is the web-app that acts as an object tracking webcam which can trigger the alarm and upload videos to Firebase
@@ -55,7 +55,7 @@ There are 3 parts to this project:
   - Note: it may or may not work simulataneously with tfjs running too because depending on whether your pc allows multi-access to a webcam at the same time
   - To run, type ```python webstreaming.py``` from the project directory
   
-References:
+##### References:
 - https://firebase.google.com/docs/storage/web/file-metadata
 - https://www.npmjs.com/package/videojs-record#get-recorded-data
 - https://collab-project.github.io/videojs-record/Record.html
