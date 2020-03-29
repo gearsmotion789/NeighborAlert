@@ -1,7 +1,7 @@
 # NeighborAlert
 
 ### Hackathon Project
-This is my entry for the OSU Hackathon - BeaverHacks Spring 2020.
+This is my entry for the OSU Hackathon - BeaverHacks Spring 2020
 - Devpost: https://devpost.com/software/neighborhood-watch-fl06pj
 - Youtube Video: https://youtu.be/p9_eat6C_Cg
 
@@ -35,6 +35,7 @@ exports.firebaseConfig = {
 };
 ```
 5. You will need to copy this file inside of "neighborhoodWatch/src" as well as "tfjs/src"
+6. In Firebase -> Storage, create one and then create a directory called "videos"
 
 ### General setup:
 1. Instal node.js from https://nodejs.org/en/download
