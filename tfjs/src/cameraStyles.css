@@ -1,0 +1,16 @@
+.size {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* Flip video in output, but stream is stil unflipped - implmenet in index.js */
+video {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+/* change player background color */
+#myVideo {
+  background-color: #ACB2F2;
+}
