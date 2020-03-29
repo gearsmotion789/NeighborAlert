@@ -1,5 +1,10 @@
 # NeighborAlert
 
+### Hackathon Project
+This is my entry for the OSU Hackathon - BeaverHacks Spring 2020.
+- Devpost: https://devpost.com/software/neighborhood-watch-fl06pj
+- Youtube Video: https://youtu.be/p9_eat6C_Cg
+
 ### Firebase setup:
 1. Go to https://console.firebase.google.com and create a new project
 2. Add a new app from the home page of your Firebase project, and choose "Web". Give it a name.
