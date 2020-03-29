@@ -43,10 +43,11 @@ There are 3 parts to this project:
   - To run, type ```npm start``` from within the project directory
 3. server is the raspberry pi alarm system that controls the siren and relay as well as notifying the webcam whether the alarm is enabled/disabled
   - To run, type ```sudo node index.js``` from within the project directory
-4. There is also an additional 4th part called webstream which can provide remote live streaming (it is slightly modified from the existing project developed by pyimagesearch.com)
+4. There is also an additional 4th part called stream-video-borwser which can provide remote live streaming (it is slightly modified from the existing project developed by pyimagesearch.com)
   - Install python 3 from https://www.python.org/downloads
-  - Do a ```pip install``` for 
-  - To run, type ```python webStreaming.py``` from the project directory
+  - Do a ```pip install``` for flask, imutils, opencv-python
+  - Note: it may or may not work simulataneously with tfjs running too because depending on whether your pc allows multi-access to a webcam at the same time
+  - To run, type ```python webstreaming.py``` from the project directory
   
 References:
 - https://firebase.google.com/docs/storage/web/file-metadata
