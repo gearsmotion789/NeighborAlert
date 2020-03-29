@@ -37,8 +37,8 @@ exports.firebaseConfig = {
 3. Inside of the root directory of each project, type ```npm install```
 4. Get the ip addres of the Raspberry Pi
   - Type ```ifconfig``` and copy the address next to IPv4 Address
-5. For both the website and the object tracking program, replace the line that says "proxy" inside of "package.json", and replace it with "http://<RASPBERRY PI IP>:8081"
-6. For both the website and the object tracking program, replace the constant called "serverIp" inside of "src/App.js" and "src/index.js", respectively, and replace it with "<RASPBERRY PI IP>"
+5. For both the website and the object tracking program, replace the line that says "proxy" inside of "package.json", and replace it with "http://[RASPBERRY PI IP]:8081"
+6. For both the website and the object tracking program, replace the constant called "serverIp" inside of "src/App.js" and "src/index.js", respectively, and replace it with "[RASPBERRY PI IP]"
 
 ### There are 3 parts to this project:
 1. neighborhoodWatch is the web-app that users can go to view uploaded video
