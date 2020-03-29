@@ -36,9 +36,9 @@ General setup:
 2. Install git from https://git-scm.com/downloads
 3. Inside of the root directory of each project, type ```npm install```
 4. Get the ip addres of everything (examples are for Windows & Raspberry Pi running a version of Linux only)
-  a. For the machine hosting the website, type ```ipconfig``` and copy the address next to IPv4 Address
-  b. For the machine hosting the object tracking, ```ipconfig``` and copy the address next to IPv4 Address
-  c. For the raspbbery pi, type ```ifconfig``` and copy the address next to IPv4 Address
+  - For the machine hosting the website, type ```ipconfig``` and copy the address next to IPv4 Address
+  - For the machine hosting the object tracking, ```ipconfig``` and copy the address next to IPv4 Address
+  - For the raspbbery pi, type ```ifconfig``` and copy the address next to IPv4 Address
 5. For both the website and the object tracking program, replace the line that says "proxy" inside of package.json, and replace it with "http://<RASPBERRY PI IP>:8081"
 6. For both the website and the object tracking program, replace the constant called "serverIp" inside of src/App.js and src/index.js, respectively, and replace it with "<RASPBERRY PI IP>"
 
