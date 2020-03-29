@@ -1,0 +1,7 @@
+neighborhoodWatch/node_modules/
+neighborhoodWatch/src/firebaseConfig.js
+
+tfjs/node_modules/
+tfjs/src/firebaseConfig.js
+
+server/node_modules/
