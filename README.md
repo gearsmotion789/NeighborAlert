@@ -44,7 +44,7 @@ exports.firebaseConfig = {
 3. Clone this project with ```git clone https://github.com/gearsmotion789/NeighborhoodWatch.git```
 4. Inside of the root directory of each project, type ```npm install```
 5. Get the ip addres of the Raspberry Pi
-  - Type ```ifconfig``` and copy the address next to IPv4 Address
+  - Type ```ifconfig``` and copy the address next to the inet Address
 6. For both the website and the object tracking program, replace the line that says "proxy" inside of "package.json", and replace it with "http://[RASPBERRY PI IP]:8081"
 7. For both the website and the object tracking program, replace the constant called "serverIp" inside of "src/App.js" and "src/index.js", respectively, and replace it with "[RASPBERRY PI IP]"
 
