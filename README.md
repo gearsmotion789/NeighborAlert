@@ -36,6 +36,7 @@ exports.firebaseConfig = {
 ```
 5. You will need to copy this file inside of "neighborhoodWatch/src" as well as "tfjs/src"
 6. In Firebase -> Storage, create one and then create a directory called "videos"
+7. In the rules tab of Storage, set the following: ```allow read, write: if true;```
 
 ### General setup:
 1. Instal node.js from https://nodejs.org/en/download
