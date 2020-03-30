@@ -57,6 +57,8 @@ exports.firebaseConfig = {
 4. There is also an additional 4th part called stream-video-borwser which can provide remote live streaming (it is slightly modified from the existing project developed by pyimagesearch.com)
   - Install python 3 from https://www.python.org/downloads
   - Do a ```pip install``` for "flask", "imutils", "opencv-python"
+  - To see the live stream from website, change the line that says ```<a href="http://<IP address of machien hosting object tracking software>:8000">Go to Live Video</a>``` in "src/App.js" of neighborhoodWatch
+      - On Windows you can get the IP Address by typing ```ipconfig``` and getting the address next to IPv4 Address
   - Note: it may or may not work simulataneously with tfjs running too because depending on whether your pc allows multi-access to a webcam at the same time
   - To run, type ```python webstreaming.py``` from the project directory
   
