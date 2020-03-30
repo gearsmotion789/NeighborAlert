@@ -1,4 +1,4 @@
-# NeighborAlert
+# NeighborWatch
 
 ### Hackathon Project
 This is my entry for the OSU Hackathon - BeaverHacks Spring 2020
