@@ -1,4 +1,4 @@
-# NeighborWatch
+# NeighborhoodWatch
 
 ### Hackathon Project
 This is my entry for the OSU Hackathon - BeaverHacks Spring 2020
@@ -55,7 +55,7 @@ exports.firebaseConfig = {
   - To run, type ```npm start``` from within the project directory
 3. server is the raspberry pi alarm system that controls the siren and relay as well as notifying the webcam whether the alarm is enabled/disabled
   - To run, type ```sudo node index.js``` from within the project directory
-4. There is also an additional 4th part called stream-video-borwser which can provide remote live streaming (it is slightly modified from the existing project developed by pyimagesearch.com)
+4. There is also an optional 4th part called stream-video-borwser which can provide remote live streaming (it is slightly modified from the existing project developed by pyimagesearch.com)
   - Install python 3 from https://www.python.org/downloads
   - Do a ```pip install``` for "flask", "imutils", "opencv-python"
   - To see the live stream from website, change the line that says ```<a href="http://<IP address of machien hosting object tracking software>:8000">Go to Live Video</a>``` in "src/App.js" of neighborhoodWatch
